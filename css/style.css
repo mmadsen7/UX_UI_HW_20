@@ -1,0 +1,121 @@
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+
+/* Text */
+h1, h2, h3 , h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;
+  }
+  p {
+    font-family: 'Poppins', sans-serif;
+  }
+  ul{
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* Navigation bar */
+  header {
+    background-color: #373738;
+    padding: 15px;
+  }
+  header ul {
+    float: right;
+    color: #82E1F7;
+    font-family: poppins;
+    font-weight: semi-bold;
+    font-size: 12pt;
+  }
+  header li {
+    display: inline-block;
+    padding: 0px 5px;
+  }
+  .nav-link {
+    font-family: poppins;
+    color: black;
+  }
+
+  /* Jumbotron  */
+  .jumbotron {
+    background-image: url(images/serious-woman-with-laptop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #DEDEDE;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  /* Jumbotron copy */
+  .jumboCopy {
+    width: 70%;
+    min-width: 500px;
+    max-width: 700px;
+    color: black;
+    text-align: center;
+  }
+  
+  /* Cards */
+  .content {
+    padding: 50px;
+  }
+  .sectionHeading {
+    text-align: left;
+  }
+  .showsNear  {
+    padding: 0px 30px 30px 30px;
+  }
+  .cardContainer {
+    text-align: center;
+  }
+  
+  /* Content */
+  .sideAccent {
+    background: #010912;
+    width: 15px;
+  }
+  .imageContainer img {
+    width: 100%;
+  }
+  .imageContainer {
+    padding: 50px;
+  }
+  .valueProp {
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
+  
+  /* Footer */
+  
+  
+  /* STYLES FOR TEMPLATE PLEASE DO NOT TOUCH*/
+  .dropdown-menu {
+    left: -97px;
+  }
+  footer {
+    background-color: #373738;
+    padding: 15px;
+    color: #82E1F7;
+  }
+  footer ul {
+    list-style: none;
+    padding-left: 5px;
+    font-family: poppins;
+    font-weight: semi-bold;
+    font-size: 12pt;
+  }
+  footer li {
+    display: inline-block;
+    padding: 0px 7px;
+  }
+  .cardContainer {
+    margin-top: 20px;
+  }
+  .card {
+    margin: 0 auto;
+  }
+  

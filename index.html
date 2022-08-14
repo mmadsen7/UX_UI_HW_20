@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+
+  <head>
+    
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Jura&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>UX/UI Homework 20</title>
+  </head>
+  <body>
+
+    <!-- Navigation bar: Navigation Component-->
+    <header>
+      <img src="images/Logos/my_logo.png" alt="logo" width="250">
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </header>
+    <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">INTRODUCTION</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">RESEARCH</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">PROBLEM STATEMENT</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">ITERATION</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">PROTOTYPE</a>
+          </li>
+      </ul>
+    <!-- End navigation bar -->
+     
+    <!-- Introduction: Jumbotron Component-->
+    <div class="jumbotron">
+      <div class="jumboCopy">
+        <h1 class="display-4">Tech Charities Case Study</h1>
+        <p class="lead">A responsive web redesign for a Non-Profit Organization that provides donated computers 
+            and training for those in need.
+            Team members were: myself, Hunter Metcalf, 
+            Taylor Sonntag, and Stetson Stokes. My role on 
+            the team was UX Researcher and UI Designer.</p>
+      </div>
+    </div>
+    <!-- End jumbotron -->
+   <!-- Content -->
+   <div class="container-fluid content">
+    <div class="container-fluid content">
+      <h5 class="mt-0 mb-1">PROJECT SUMMARY</h5>
+    <p>This was a three week project, culminating in a UI prototype presentation of our redesign of the Tech Charities’ nonprofit website. We followed the double diamond design thinking model and UI design process. Our priorities were conducting user research to gain a better understanding of Tech Charities’ user demographic, fixing the navigation, and making information easily accessible.</p>
+    <br> 
+    <h2 class="sectionHeading">RESEARCH</h2>
+    <p>We created a user research plan identifying the objectives of our research and a user interview script. Our research objectives were to answer these questions:</p>
+    <!-- List Group Flush Component -->
+    <ul class="list-group list-group-flush">
+      <li class="list-group-item">What motivates users to donate their old tech devices?</li>
+      <li class="list-group-item">How do users determine where to donate their tech?</li>
+      <li class="list-group-item">What pain points users encountered during their process of donating?</li>
+      <li class="list-group-item">What scares people from donating old tech?</li>
+    </ul>
+    <!-- End List Group Flush Component -->
+    <br>
+      <p>4 User interviews and 2 Client Stakeholder interviews were conducted over zoom. 
+        We also conducted a Google survey. 
+        We found that most people take old tech to a recycler or throw it out. And no one had heard of Tech Charities. We found that we needed to focus on donations. And we needed to make the process of giving personal information feel more safe/authentic/official.</p>
+        <h5 class="mt-0 mb-1">DEFINITION PHASE</h5>
+      <p>We created a User Persona of Rachel Canning to help us focus on what matters to our users, their behaviors, frustrations, and motivations. We also created a User Journey map of Rachel’s user experience through donating a computer on the Tech Charities website. 
+        This helped us gain insight into how she interacts with the website and what she might find helpful or frustrating and what her goals are.</p>
+    <br>
+    <img src="images/user persona.png" class="center" alt="user persona">
+    <img src="images/user journey map.png" class="center" alt="user journey map">
+    <br>
+    <p>We used the “I like, I wish, what if” design thinking method to categorize the feedback from our survey and interviews. We then took the data and created a Feature Prioritization Matrix with Low difficulty, High impact to help us decide which features should be a priority.
+      We decided the main features we needed to focus on were:</p>
+      <ul>
+        <li>A Donation Button</li>
+        <li>Making the “4 ways to help” more clear.</li>
+      </ul>
+    <br>
+    <img src="images/i-like-i-wish-what-if.png" class="center" alt="I like I wish what if">
+    <br>
+    <img src="images/feature-prioritization-matrix.png" class="center" alt="feature prioritization matrix">
+    <br>
+    <p>We then created a User Flow focusing on the donation process. We wanted to make the process of giving personal information feel more safe/authentic/official since we found that was a main concern among users in our survey.</p>
+    <br>
+    <p>We also had our flow cater the donation process to both individuals as well as companies (who might want to make bulk donations), but we decided to focus on indiviuals donating for the project.</p>
+    <br>
+    <img src="images/user flow.png" class="center" alt="user flow">
+    <br>
+    <br>
+    <br> 
+    <!-- Problem Statement: Jumbotron Component-->
+      <h2 class="sectionHeading">PROBLEM STATEMENT</h2>
+      <div class="jumbotron">
+        <div class="jumboCopy">
+          <h1 class="display-4">Problem Statement</h1>
+          <p class="lead">TechCharities’ website is difficult to navigate which makes helping the charity inconvenient for the user. We believe that by redesigning the website navigation we will get users to engage by easily making donations.</p>
+        </div>
+      </div>
+    <!-- End jumbotron -->
+      
+    <!-- Iterations: Media Object Component-->
+      <h2 class="sectionHeading">ITERATION</h2>
+      <h5 class="mt-0 mb-1">WIREFRAMES</h5>
+      <p>After figuring out our User Flow I did some quick sketches of mobile screens to try to get an idea of which screens we would need to wireframe.</p>
+      <img src="images/techcharities_sketches.jpg" alt="wireframe sketches" class="center">   
+      <p>We designed for both mobile and desktop but we decided to focus in on Desktop. The Stakeholder wanted to focus on desktop and the user flow we are focusing on is people donating computers. Also, the other users (the receivers who need a computer) won’t have one so they will be working with Agencies that have desktops as their key source of information. Below were our initial UI wireframes for desktop.</p>
+      <img src="images/desktop wireframes.png" alt="desktop wireframes" class="center">   
+      <br>
+      <br>
+      <br>
+      <div class="media">
+        <img src="images/TechCharities-UI-Style-Tile.png" class="align-self-center mr-3" alt="ui style tile" height="500">
+        <div class="media-body">
+          <h5 class="mt-0">UI STYLE</h5>
+          <p class="mb-0">I created the Style Tile that we would use for the website and applied it to mobile, tablet, and desktop. We wanted the UI of the website to have a clean, modern, informative, and intuitive feel to make it easy for users to engage and donate. We decided to combine some of the organizations existing photography with some high quality images to give the website a friendly, positive, and trustworthy quality.
+            <br>
+                  For brand typography we’ve chosen to implement the font Inter. Inter is a variable font family (meaning it has a variety of widths and weights and other attributes). It was designed specifically for user interfaces on computer screens so it has high legibility in a variety of text sizes and weights and is a great font for representing TechCharities.
+            <br>     
+                  For our color pallet we chose a dark green as the primary color and a golden yellow as the secondary color. Some lighter shades of green and white were also implemented to give a fresh clean feel to the website. And we added buttons throughout the website with a focus on donation buttons.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="media">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">LOGO ITERATION</h5>
+          TechCharities originally had 2 logos, one was used on their donation website and the other on their training website. We decided one new logo needed to be created. One of my teammates designed a new logo that we feel better represented the Charity being related to Tech.
+        </div>
+        <img src="images/logo iteration.png" class="align-self-center mr-3" alt="logo iteration" height="200">
+      </div>
+      <br>
+      <br>
+      <div class="media">
+        <img src="images/Screen Shot 2022-06-08 at 7.12.51 PM.png" class="align-self-center mr-3" alt="user testing" height="300">
+        <div class="media-body">
+          <h5 class="mt-0">TESTING PHASE</h5>
+          <p class="mb-0">Based on all our research, we developed a few scenarios with a series of tasks for our testers to follow. The main objective of the testing was to see if the users could accomplish each task and see how they would interpret the task. The main feedback we received was needing to simplify the design, especially on the form screens.</p>
+        </div>
+      </div>
+      <br>
+      <br>
+      <div class="media">
+        <div class="media-body">
+          <h5 class="mt-0 mb-1">PROTOTYPE ITERATIONS</h5>
+          Based on our feedback from user testing we made changes to our prototypes. Here we have an example of a mobile form screen that we had overdesigned, we’ve implemented the feedback changes to make it less busy and easier to read for the user. 
+        </div>
+        <img src="images/prototypeiterations.png" class="ml-3" alt="prototype iterations" height="300">
+      </div>
+<!-- End media object component -->
+
+<!-- Prototype: Bootstrap 4’s Col class system-->
+      <h2 class="sectionHeading">PROTOTYPE</h2>
+     <P>Here is the final tablet home screen and the final mobile prototype flow screens we designed.</P>
+     <div class="container">
+      <div class="row">
+        <div class="col">
+          <img src="images/iPad final ui.png" alt="ipad final ui" height="1000">
+        </div>
+        <div class="col">
+          <img src="images/Mobile final ui.png" alt="mobile final ui" height="700">
+        </div>
+      </div>
+    </div>
+      <!-- End col class system -->
+      <br>
+      <p>This is the final desktop prototype for Tech Charities. Here is <a href="https://www.figma.com/proto/WCwyqfIvNyezyS7b35DyjR/House-of-Hunters?scaling=min-zoom&page-id=11%3A36&node-id=231%3A2487&starting-point-node-id=143%3A1533">the link</a> for the interactive clickable prototype.
+      </p>
+      <img src="images/desktop_giphy.gif" alt="desktop giphy" class="center">
+    <br>
+    <br>
+    <h5 class="mt-0 mb-1">CONCLUSION</h5>
+    <P>Lessons Learned: We believe that by redesigning Tech Charities’ website users will be able to feel confident that their donations will be received and used by populations in need. As a designer I learned how to better research and design as a team with other designers. We all had different ideas, so this project helped teach me how to put our design ideas together into one cohesive design. </P>
+    <br>
+    <h5 class="mt-0 mb-1">FUTURE OPPORTUNITIES</h5>  
+    <P>If we had more time, we would improve/perfect the UI even more.  
+Some other ideas we had for the future:</P>
+      <ul>
+        <li>The Stakeholder said they haven’t been very successful with Computer Campus (their other training website) so combining the donation and training websites into one website, because the websites are repetitive.</li>
+        <li>Creating social media accounts (they have no social media).</li>
+        <li>Given that Youtube is the main source people turn to in wanting to learn about tech and computers, we believe they could benefit from creating a training channel there.</li>
+      </ul>
+  </div>
+  </div>
+    
+    <!-- End content -->
+
+    <!-- Footer -->
+    <footer>
+      <ul>
+        <li>ABOUT</li>
+        <li>SKILLS</li>
+        <li>WORK</li>
+        <li>CONTACT</li>
+      </ul>
+    </footer>
+    <!-- End footer -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"></script>
+  </body>
+
+</html>
