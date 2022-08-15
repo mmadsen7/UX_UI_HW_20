@@ -5,7 +5,6 @@
   width: 50%;
 }
 
-
 /* Text */
 h1, h2, h3 , h4, h5, h6 {
     font-family: 'Poppins', sans-serif;
@@ -40,7 +39,6 @@ h1, h2, h3 , h4, h5, h6 {
 
   /* Jumbotron  */
   .jumbotron {
-    background-image: url(images/serious-woman-with-laptop.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-color: #DEDEDE;
@@ -58,6 +56,17 @@ h1, h2, h3 , h4, h5, h6 {
     color: black;
     text-align: center;
   }
+
+  .jumbotronProblem {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #DEDEDE;
+    height: calc(100vh - 25px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   
   /* Cards */
   .content {
